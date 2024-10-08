@@ -177,6 +177,7 @@ def main():
     score = Score()  # スコア表示用のインスタンス
     clock = pg.time.Clock()
     tmr = 0
+    score = Score()  # Scoreインスタンスの生成   1
 
     while True:
         for event in pg.event.get():
