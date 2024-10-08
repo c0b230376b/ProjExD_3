@@ -177,7 +177,7 @@ def main():
     bombs = [Bomb((255, 0, 0), 10) for _ in range(NUM_OF_BOMBS)]
     clock = pg.time.Clock()
     tmr = 0
-    score = Score()  # Scoreインスタンスの生成
+    score = Score()  # Scoreインスタンスの生成   1
 
     while True:
         for event in pg.event.get():
