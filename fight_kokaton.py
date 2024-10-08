@@ -14,6 +14,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 class Score:
     """
     ゲーム中のスコアを管理するクラス
+    初期設定を行うdef __init__(self)とスコアを更新し、画面に表示するdef update(self, screen: pg.Surface):がある
     """
     def __init__(self):
         """
